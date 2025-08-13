@@ -9,7 +9,7 @@ public class Calculadora {
         return a + b;
     }
 
-    public Double dividir(Double a, Double b){
+    public double dividir(double a, double b){
         if(b == 0) {
             throw new IllegalArgumentException("Erro ao dividir");
         }
